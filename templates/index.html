@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Calculator</h1>
+
+    <form method="POST">
+        <input type="number" name="num1" placeholder="Enter First Number" required>
+
+        <input type="number" name="num2" placeholder="Enter Second Number" required>
+
+        <select name="operation">
+            <option value="+">Addition (+)</option>
+            <option value="-">Subtraction (-)</option>
+            <option value="*">Multiplication (*)</option>
+            <option value="/">Division (/)</option>
+        </select>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+        Result = {{ result }}
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
