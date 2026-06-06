@@ -1,10 +1,10 @@
- 🧮 Flask Calculator Web Application
+ 🧮 **Flask Calculator Web Application**
 
 A modern and responsive Calculator Web Application built using **Python Flask**. This project performs basic arithmetic operations with a clean and attractive user interface.
 
 ---
 
-🚀 Features
+🚀 **Features**
 
 ✔️ Addition (+)  
 ✔️ Subtraction (-)  
@@ -78,7 +78,7 @@ http://127.0.0.1:5000
 
 ---
 
- 📸 Project Screenshot
+ 📸 **Project Screenshot**
 
 <img width="571" height="532" alt="image" src="https://github.com/user-attachments/assets/44d579e6-0d53-4a31-a8c6-1a5877f28cd7" />
 
