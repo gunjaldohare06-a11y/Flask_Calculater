@@ -37,8 +37,8 @@ Flask-Calculator/
 │   └── index.html
 ├── static/
 │   ├── style.css
-│   └── script.js
-├── requirements.txt
+│   
+├
 └── README.md
 ```
 
